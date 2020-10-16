@@ -1,0 +1,170 @@
+@font-face {
+	font-family: "PlayfairDisplay Regular";
+	src:
+			local("PlayfairDisplay Regular"), local("PlayfairDisplay-Regular"),
+			url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2") format("woff2"),
+			url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+} /*"PlayfairDisplay Regular"*/
+@font-face {
+	font-family: "ProximaNova Regular";
+	src:
+			local("ProximaNova Regular"), local("ProximaNova-Regular"),
+			url("../fonts/ProximaNova/ProximaNova-Regular.woff2") format("woff2"),
+			url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+} /*"ProximaNova Regular"*/
+@font-face {
+	font-family: "FuturaPT Heavy";
+	src:
+			local("FuturaPT Heavy"), local("FuturaPT-Heavy"),
+			url("../fonts/FuturaPT/FuturaPT-Heavy.woff2") format("woff2"),
+			url("../fonts/FuturaPT/FuturaPT-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+} /*"FuturaPT Heavy"*/
+
+html {
+	background-color: #fff;
+}
+
+body {
+	width: 1200px;
+	height: 900px;
+	margin: 0 auto;
+	padding: 150px 70px 0 70px;
+	font-family: "Georgia Regular", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 40px;
+	color: #000;
+	text-align: justify;
+	background-color: #454f53;
+	box-sizing: border-box;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+main {
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #b4b4b4;
+	cursor: pointer;
+}
+
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	margin-right: -70px;
+	margin-top: -100px;
+}
+
+.header-bar {
+	width: 876px;
+	height: 170px;
+	background-color: #000;
+	float: right;
+	text-align: left;
+	padding: 30px 0 40px 60px;
+	box-sizing: border-box;
+}
+
+.control-bar {
+	width: 812px;
+	height: 76px;
+	background-color: #fbc02d;
+	float: right;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	padding-left: 40px;
+}
+
+hr {
+	height: 1px;
+	border: 1px solid #303030;
+	background-color: #303030;
+}
+
+.header-title {
+	font-family: "ProximaNova Regular", "Arial", sans-serif;
+	font-size: 15px;
+	letter-spacing: 4.8px;
+	text-transform: uppercase;
+	color: #767676;
+}
+
+.header-text {
+	font-family: "PlayfairDisplay Regular", "Times New Roman", serif;
+	font-size: 48px;
+	text-transform: capitalize;
+	color: #fefefe;
+	padding: 0;
+	margin: 0;
+}
+
+.header-text::after {
+	content: "|";
+}
+
+.article {
+	width: 1060px;
+	height: 750px;
+	padding: 200px 120px 0 120px;
+	box-sizing: border-box;
+	margin: 100px 0 0 0;
+}
+
+.meta {
+	font-family: "ProximaNova Regular", "Arial", sans-serif;
+	font-size: 20px;
+	letter-spacing: 4.38px;
+	text-transform: uppercase;
+	color: #b4b4b4;
+}
+
+.title {
+	font-family: "FuturaPT Heavy", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 78px;
+	line-height: 73.5px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.subtitle {
+	font-family: "Georgia", "Times New Roman", serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 62px;
+	color: #8f8f8f;
+	text-align: left;
+}
+
+.icon {
+	padding: 0 18px;
+}
+
+.icon:hover {
+	background-color: #DBB65D;
+}
+
+
